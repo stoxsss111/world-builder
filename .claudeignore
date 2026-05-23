@@ -1,0 +1,7 @@
+# Keep Claude focused on the scaffold, not the build outputs
+worlds/*/iterations/
+worlds/*/assets/*.glb
+worlds/*/assets/*.fbx
+worlds/*/final.blend
+node_modules/
+.env

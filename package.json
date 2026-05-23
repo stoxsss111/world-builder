@@ -1,0 +1,27 @@
+{
+  "name": "world-builder",
+  "version": "0.1.0",
+  "description": "Image → full stylised 3D scene in Blender via Claude Code + Blender MCP autonomous vision loop.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:fal": "node .claude/scripts/fal/run-fal.mjs --endpoint tripo3d/p1/image-to-3d --help",
+    "setup-check": "bash .claude/hooks/setup-check.sh"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "claude-code",
+    "blender",
+    "mcp",
+    "3d",
+    "procedural",
+    "stylized",
+    "tripo",
+    "trellis",
+    "fal",
+    "autonomous-loop"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+Migration inventory:
+  active: instruction files - 1 found
+    - CLAUDE.md
+  active: skills - 6 found
+    - analyze-reference
+    - build-world
+    - generate-3d
+    - generate-material
+    - place-and-iterate
+    - procedural-terrain
+  inactive: command sources - none found
+  inactive: subagents - none found
+
+Migration surfaces:
+  active: AGENTS.md - Codex project instructions written as a real file.
+  active: skills - 6 skill(s) converted under .agents/skills.
+  active: MCP config - 2 MCP server(s) converted into .codex/config.toml.
+  inactive: subagents - No subagents found.
+
+Migration report:
+  added: AGENTS.md - Windows blocked the converter symlink, so Codex-specific instructions were written manually.
+  added: .agents/skills/analyze-reference/SKILL.md - Converted into a Codex skill and reviewed.
+  added: .agents/skills/build-world/SKILL.md - Converted into a Codex skill and reviewed.
+  added: .agents/skills/generate-3d/SKILL.md - Converted into a Codex skill and reviewed.
+  added: .agents/skills/generate-material/SKILL.md - Converted into a Codex skill and reviewed.
+  added: .agents/skills/place-and-iterate/SKILL.md - Converted into a Codex skill and reviewed.
+  added: .agents/skills/procedural-terrain/SKILL.md - Converted into a Codex skill and reviewed.
+  added: .codex/config.toml - Converted blender and fal-ai MCP server entries.
+  check before using: MCP tools - Reload or start a Codex session that loads .codex/config.toml before live Blender/fal work.

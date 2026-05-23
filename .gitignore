@@ -1,0 +1,34 @@
+.env
+.env.local
+node_modules/
+bun.lock
+package-lock.json
+
+# Local Claude / Codex overrides
+.claude/settings.local.json
+.codex/config.local.toml
+
+# Third-party cloned tools/repos — never commit these into world-builder's git
+.tools/
+tools/
+
+# Generated worlds — keep _examples in git, ignore actual builds
+worlds/*/
+!worlds/_examples/
+
+# Iteration artifacts
+**/iterations/*.blend.bak
+**/final.blend
+**/*.glb
+**/*.fbx
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,14 @@
+personality = "friendly"
+
+[mcp_servers]
+
+[mcp_servers.blender]
+# Replace this with the absolute path to your local blender-mcp executable.
+# Typical install path after `uv tool install blender-mcp`:
+#   Windows: C:\\Users\\<you>\\AppData\\Roaming\\uv\\tools\\blender-mcp\\Scripts\\blender-mcp.exe
+#   macOS/Linux: $HOME/.local/share/uv/tools/blender-mcp/bin/blender-mcp
+command = "blender-mcp"
+
+[mcp_servers.fal-ai]
+url = "https://mcp.fal.ai/mcp"
+bearer_token_env_var = "FAL_KEY"

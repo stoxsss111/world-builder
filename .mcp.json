@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "blender": {
+      "type": "stdio",
+      "command": "blender-mcp"
+    },
+    "fal-ai": {
+      "type": "http",
+      "url": "https://mcp.fal.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FAL_KEY}"
+      }
+    }
+  }
+}
