@@ -145,4 +145,4 @@ Scaffold-stage. The folder layout, design docs, fal client, and SKILL.md stubs a
 
 ## License
 
-MIT (TBD on push)
+Nothing, have fun
