@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "analysis": {
+    "floor_z": 393.952,
+    "floor_found": true,
+    "structural_objects_count": 113
+  },
+  "import": {
+    "imported_result": "5/5",
+    "count": 5
+  },
+  "arrange": {
+    "arranged_count": "111"
+  },
+  "collisions": {
+    "collisions": "OK",
+    "fixed": true
+  }
+}

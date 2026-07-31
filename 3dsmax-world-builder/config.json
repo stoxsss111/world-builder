@@ -1,0 +1,8 @@
+{
+  "models_directory": "C:\\Users\\sapfi\\Desktop\\models",
+  "mcp_pipe_name": "\\\\.\\pipe\\3dsmax-mcp",
+  "skill_path": "C:\\Users\\sapfi\\.gemini\\config\\skills\\simready-scene-arranger",
+  "native_loader_script": "C:\\Users\\sapfi\\.gemini\\config\\skills\\simready-scene-arranger\\scripts\\native_model_loader.ms",
+  "collision_script": "C:\\Users\\sapfi\\.gemini\\config\\skills\\simready-scene-arranger\\scripts\\check_collisions.ms",
+  "allow_external_apis": false
+}
